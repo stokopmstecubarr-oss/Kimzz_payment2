@@ -1,0 +1,7 @@
+body{margin:0;padding:0;font-family:'Inter',sans-serif;background:linear-gradient(135deg,#ff4fa3,#7c3aed);color:white;display:flex;justify-content:center;padding:20px 10px;min-height:100vh;}
+.container{width:100%;max-width:700px;}
+.card{background:#ffffff15;backdrop-filter:blur(15px);padding:20px;border-radius:12px;margin-bottom:20px;}
+input,select,textarea,button{width:100%;margin-top:10px;padding:10px;border-radius:8px;border:none;}
+button{cursor:pointer;background:linear-gradient(135deg,#ff4fa3,#7c3aed);color:white;font-weight:600;}
+#notif{position:fixed;top:20px;right:20px;padding:12px;border-radius:10px;background:linear-gradient(135deg,#ff4fa3,#7c3aed);opacity:0;transition:.5s;}
+#otherPayments{background:#ffffff10;padding:10px;margin-top:5px;border-radius:8px;}

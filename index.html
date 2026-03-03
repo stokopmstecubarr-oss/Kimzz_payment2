@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KIMZZ PAYMENT</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sparkle"><span></span><span></span><span></span><span></span><span></span></div>
+
+<div id="notif">Foto telah dikirim</div>
+
+<div class="container">
+<div class="brand">KIMZZ PAYMENT</div>
+<h1>JB Payment Official</h1>
+
+<div class="card">
+<h2>Pilih Produk</h2>
+<select id="produkSelect">
+<option value="">-- Pilih Produk --</option>
+</select>
+<button id="showOtherPaymentBtn">Tampilkan Payment Lain</button>
+<div id="otherPayments" style="display:none;margin-top:10px;">
+<p>DANA: 085647899626</p>
+</div>
+</div>
+
+<div class="card">
+<h2>Upload Bukti Transfer</h2>
+<input type="text" id="namaPengirim" placeholder="Masukkan Nama Anda">
+<input type="file" id="buktiInput" accept="image/*">
+<textarea id="catatanInput" placeholder="Catatan untuk owner..." rows="3"></textarea>
+<button onclick="kirimBukti()">Kirim ke Telegram</button>
+<div id="afterUpload" style="display:none; margin-top:10px; text-align:center;">
+<a href="https://t.me/Kimzz080" target="_blank">Chat Telegram Admin</a>
+</div>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

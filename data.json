@@ -1,0 +1,9 @@
+{
+  "products":[
+    {"name":"UBOT TELEGRAM 1 BULAN","price":"3K","stock":5,"status":"available"},
+    {"name":"UBOT TELEGRAM PERMANEN","price":"5K","stock":5,"status":"available"},
+    {"name":"PANEL UNLI","price":"4K","stock":5,"status":"available"}
+  ],
+  "owners":["7797110418"],
+  "money_total":0
+}
