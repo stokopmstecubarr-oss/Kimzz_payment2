@@ -8,14 +8,32 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="sparkle"><span></span><span></span><span></span><span></span><span></span></div>
 
+<!-- Sparkle Animasi -->
+<div class="sparkle"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+<!-- Notifikasi -->
 <div id="notif">Foto telah dikirim</div>
 
+<!-- Admin & Telegram -->
+<div id="adminWA" onclick="hubungiAdmin()"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA"></div>
+<div id="telegramBtn" onclick="openTelegram()"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"></div>
+
+<!-- Container -->
 <div class="container">
+
 <div class="brand">KIMZZ PAYMENT</div>
 <h1>JB Payment Official</h1>
 
+<!-- QRIS -->
+<div class="card">
+<h2>Scan QRIS</h2>
+<div class="qris-wrapper">
+<img src="https://files.catbox.moe/3xjutv.jpg" class="qris-img">
+</div>
+</div>
+
+<!-- Pilih Produk -->
 <div class="card">
 <h2>Pilih Produk</h2>
 <select id="produkSelect">
@@ -27,6 +45,7 @@
 </div>
 </div>
 
+<!-- Upload Bukti Transfer -->
 <div class="card">
 <h2>Upload Bukti Transfer</h2>
 <input type="text" id="namaPengirim" placeholder="Masukkan Nama Anda">
@@ -38,7 +57,34 @@
 </div>
 </div>
 
+<!-- Cara Order -->
+<div class="card">
+<button onclick="toggleCaraOrder()">Cara Order</button>
+<div id="caraOrderContent">
+<ol>
+<li>Pilih paket yang diinginkan.</li>
+<li>Scan QRIS dan lakukan pembayaran.</li>
+<li>Upload bukti transfer + pilih produk + isi nama.</li>
+<li>Owner akan konfirmasi via Telegram.</li>
+<li>Jika mau order lain, ulangi langkahnya.</li>
+</ol>
 </div>
+</div>
+
+<!-- My Bini Video -->
+<div class="card">
+<h2>My Bini</h2>
+<div class="video-wrapper">
+<video autoplay loop muted playsinline style="width:100%;height:auto;object-fit:cover;">
+<source src="https://files.catbox.moe/v8nnlg.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">© 2026 KIMZZ PAYMENT</div>
+</div>
+
 <script src="script.js"></script>
 </body>
-</html>
+  </html>
